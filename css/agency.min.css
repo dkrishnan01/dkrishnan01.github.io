@@ -194,7 +194,7 @@ figcaption {
   padding-left: 2%;
   padding-right: 2%;
   width: 100%;
-  background-color: #008ABD;
+  background-color: #2196F3;
   opacity: 0.8;
   text-align: center;
   vertical-align: middle;
@@ -318,7 +318,6 @@ header.masthead .intro-text .intro-heading{
 }
 #portfolio .portfolio-item .portfolio-caption p{
     font-size:16px;
-    font-style:italic;
     margin:0;
     font-family:'Europa','Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif
 }
