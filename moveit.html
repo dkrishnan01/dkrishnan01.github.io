@@ -37,14 +37,14 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <h2 class="portfolio-name"><font color="#008ABD">d</font><font color="#350035">k</font></h2>
+        <img class="img-fluid d-block mx-auto logo" src="img/logo.png" alt="">
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger home" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger portfolio" href="index.html#portfolio">Portfolio</a>
+              <a class="nav-link" data-toggle="modal" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger about" href="index.html#about">About</a>
@@ -61,14 +61,6 @@
 
     <div class="container">
       <div class="row">
-        <div class="sidenav">
-          <a href="#"><img src="img/sidenav_moveit.png" class="btn-social"/></a><br />
-          <a href="#"><img src="img/sidenav_droplet.png" class="btn-social"/></a><br />
-          <a href="#"><img src="img/sidenav_mdt.png" class="btn-social" /></a><br />
-          <a href="#"><img src="img/sidenav_moveit.png" class="btn-social"/></a><br />
-          <a href="#"><img src="img/sidenav_droplet.png" class="btn-social"/></a><br />
-          <a href="#"><img src="img/sidenav_mdt.png" class="btn-social" /></a><br />
-        </div>
         <div class="col-lg-8 mx-auto">
           <div class="container">
             <center><h2 class="text-uppercase">MoveIt!</h2></center>
@@ -114,7 +106,7 @@
               <p>
                   Having moved to the US only recently (in Fall 2016), to a place where I knew no one, I experienced first-hand the problem of moving-in.
                   Hunting for an apartment, dealing with ironclad US rental agreements, and finding furniture were harder than they should have been.
-                  Maybe God took pity on me, or it could have been sheer luck, but a week into my horror-ride, an old friend I hadn’t met or even spoken
+                  A week into a series of unfortuntate events that just made things very hard for me, an old friend I hadn’t met or even spoken
                   to in 12 years came out from nowhere and offered to help me settle in. A week of sleeping on the floor with only my jeans and a couple
                   of sweatshirts to act as a blanket had finally come to an end.
               </p>
@@ -169,7 +161,7 @@
               <p>
                 <figure>
                   <img class="img-fluid d-block mx-auto" src="img/moveit/moveit_persona.png" alt="">
-                  <figcaption>Personas helped me focus more on the target users needs and caharacteristics</figcaption>
+                  <figcaption>Personas helped me focus more on the target users needs and characteristics</figcaption>
                 </figure>
               </p>
               <p><b>Paper Prototype</b></p>
@@ -265,6 +257,114 @@
       </div>
     </div>
   </section>
+
+  <!-- Portfolio Modal -->
+  <div class="portfolio-modal modal fade" id="portfolio" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading text-uppercase">Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link js-scroll-trigger" href="moveit.html">
+                <div class="portfolio-hover">
+                   <div class="portfolio-hover-content">
+                     <p><i> MoveIt! — the ultimate moving app for college students </i></p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>MoveIt!</h4>
+                <p class="text-muted">Interaction Design</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link js-scroll-trigger" href="droplet.html">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <p><i>Droplet — a personal informatics application that measures your water footprint</i></p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Droplet</h4>
+                <p class="text-muted">Personal Informatics Design</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link js-scroll-trigger" href="mdt.html">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <p><i>UX Research — making My Dream Team a Dream Product</i></p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>My Dream Team</h4>
+                <p class="text-muted">UX Research</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link js-scroll-trigger" href="mdt.html">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <p><i>Product Development at FICO — designing an in-house system for client data management</i></p>
+                  </div>
+                </div>
+                <img class="img-fluid correction" src="img/portfolio/04-thumbnail.jpg" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>FICO</h4>
+                <p class="text-muted">Summer Internship</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link js-scroll-trigger" href="mdt.html">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <p><i>Team inFaux Ninjas — designing a native Facebook plug-in to combat Fake News</i></p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Munger Design Challenge</h4>
+                <p class="text-muted">Designing for Social Media</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link js-scroll-trigger" href="mdt.html">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <p><i>UX Research — making My Dream Team a Dream Product</i></p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>My Dream Team</h4>
+                <p class="text-muted">UX Research</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer>
