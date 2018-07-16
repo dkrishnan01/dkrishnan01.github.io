@@ -79,6 +79,16 @@ img::selection{
 img::-moz-selection{
     background:0 0
 }
+.key-feature {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.alternate-row {
+  color: black;
+  background-color: rgba(33, 150, 243, 0.3);
+
+}
 
 #mainNav{
     background-color:#212529;
@@ -183,11 +193,13 @@ img::-moz-selection{
   font-weight: 200;
   font-size: 48px;
 }
+
 figcaption {
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   color: #939393;
 }
+
 .insight {
   padding-top: 5%;
   padding-bottom: 5%;
