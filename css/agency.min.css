@@ -80,14 +80,10 @@ img::-moz-selection{
     background:0 0
 }
 .key-feature {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.alternate-row {
-  color: black;
-  background-color: rgba(33, 150, 243, 0.3);
-
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+  vertical-align: middle;
 }
 
 #mainNav{
