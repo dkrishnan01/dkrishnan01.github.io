@@ -158,7 +158,25 @@
                   information displayed on the wearable owing to the small screen size. The prototype also included screens for the app which
                   would host detailed information for the user to review at their leisure.
               </p>
-            <p><b>Key Features</b></p>
+              <p><img class="img-fluid d-block mx-auto" src="img/tranquilo/tranquilo_protoype.png" alt=""></p>
+            <h3>How it works</h3>
+              <p>
+                  The wearable device will constantly measure pulse. If the user forgets to wear it for a long period of time, the app on their
+                  mobile device will remind them to wear it. When the user wakes up (defined in this scenario as the time when the user first
+                  operates their phone in the morning) they will be asked to self-report their mood on a scale from 1-10 (1 being bad-mood and
+                  10 being good-mood). It will be a single input question. Over the course of the day if a user experiences sudden changes in heart
+                  rate, the app will trigger a notification asking them to self-report what the reason could have been for that sudden instance of
+                  higher pulse. This notification is intended to be triggered a short period (5-7 mins. After the episode) so as to not become a
+                  source of stress for the user to self-report. The wearable will help to ensure that this higher rate is not confused with increased
+                  physical activity such as biking, running, etc. That is, the app will recognize if the user is involved in heavy physical work and
+                  prompt the user to explain their increased heart rate. At the end of the day the user is prompted to have a look at their mood chart
+                  for the day. It shows them what caused their heart rate to change and whether that incident was positive or negative.
+              </p>
+              <p>
+                  The app will use machine learning to learn what types of activities calm or de-stress the user and through prolonged usage, it will
+                  collect more data and make better decisions to help the user.
+              </p>
+            <h3>Key Features</h3>
               <p>
                   <div class="container">
                     <div class="row key-feature alternate-row">
@@ -205,13 +223,55 @@
               <p><img class="img-fluid d-block mx-auto" src="img/tranquilo/tranquilo_key_features.png" alt=""></p>
             <h3>Design Decisions</h3>
               <p>
-                  One major decision made was to ensure that the user was not prompted right after the incident to ask them why their heart
+                  One major decision made was to ensure that the <b>user was not prompted right after the incident</b> to ask them why their heart
                   rate rose, but to wait a while and allow the user to de-stess and collect themselves before prompting them. This gives
                   users time to calm themselves down, and also does not serve as an added source of stress.
               </p>
               <p>
-                  The use of a wearable and a mobile app was useful because the wearable detected the pulse and had limited display/interaction
-                  because of the small screen-size. The mobile app helped the user
+                  <b>The use of a wearable and a mobile app</b> was useful because the wearable detected the pulse and had limited display/interaction
+                  because of the small screen-size. The mobile app helped the user view detailed information related to their mood and causes
+              </p>
+              <p>
+                  Users were also shown what activities calmed them or resulted in themselves exhibiting positive sentiments so that they could consider
+                  indulging themselves in those activities in the future should they want to feel better during a particularly bad day.
+              </p>
+            <h3>Measurement Strategy - analysis of individual measures</h3>
+              <p>
+                In terms of overall effectiveness, while it might not be immediately apparent to the user as to why they have to record events over the
+                day, it will help them understand their mood when the data is shown to them on the app. So, while the immediate effectiveness might not
+                be apparent the final output from the app and the comparison shown will be helpful. Some of the validity issues one might face here are
+                (in line with Unobtrusive Measures <a href="http://psycnet.apa.org/record/1966-06543-000">[Webb et. al, 1966]</a>):
+                <ol>
+                    <li>Reactive bias by the user - where in the data reported by the user might not be accurate when it is retrospective</li>
+                    <li>Restrictions on content - where certain types of stigma might provoke the user to only record positive content</li>
+                    <li>Stability of content over area - where in the user might be affected by causes that are not connected to them. For e.g., students
+                      in a university campus concerned over political protests in a campus hundreds of miles away might not have these directly impacting
+                      their moods</li>
+                </ol>
+              </p>
+              <p>
+                In terms of usability, the app would score high as with increased use it will help the user track their moods over time and assist them in
+                having better control over their moods. The app will have a simple interface and not disturb the user too often in order to ensure sustained
+                interaction with the system.
+              </p>
+            <h3>Future Work</h3>
+              <p>
+                  While the idea itself seems to be very innovative and has piqued the interest of users interviewed, there are some practical hurdles that
+                  need to be crossed before proceeding with the app.
+              </p>
+              <p>
+                <ul>
+                  <li>Wearables are in their infancy right now and advanced wearable devices that accurately measure pulse perfectly and at all times are
+                    still not affordable enough for the average user</li>
+                  <li>Data privacy concerns in an app that consumes as much data about the user as this one does tends to worry some users who are concerned
+                    about data being held safely and securely within apps</li>
+                  <li>While the app does support users at some level to measure their mood and identify aspects of their life or incidents that worry them,
+                    it cannot act as a replacement for conventional mental health treatment methods such as therapy or counseling.<li>
+                </ul>
+              </p>
+              <p>
+                  Based on the above, I feel that the next steps should be to make a working prototype, conduct field research to identify potential pitfalls
+                  and hurdles, and then develop a feedback loop to improve the concept.
               </p>
           </div>
         </div>
