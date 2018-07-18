@@ -6,7 +6,7 @@
  /* @font-face { font-family: 'TWCent'; src: url('../fonts/tw-cen-mt-std/TwCenClassMTStd-Regular.otf'); } */
 body{
     overflow-x:hidden;
-    font-family:'Europa','Helvetica Neue',Helvetica,Arial,sans-serif
+    font-family:'Europa','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 p{
     line-height:1.75
